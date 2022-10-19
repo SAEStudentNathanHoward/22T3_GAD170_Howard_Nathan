@@ -22,7 +22,7 @@ namespace NathanHoward
             int yPosition = Random.Range(-50, 50);
             int zPosition = Random.Range(-50, 50);
 
-            mainCamera.ViewportToWorldPoint(Vector3 position);
+            //mainCamera.ViewportToWorldPoint(Vector3 position);
 
             Instantiate(coinPrefab, new Vector3(xPosition, yPosition, zPosition), Quaternion.identity);
         }
